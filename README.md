@@ -88,5 +88,5 @@ Este projeto é licenciado sob a [Licença MIT](LICENSE).
 
 ## Contato
 
-Para perguntas ou sugestões, entre em contato com [Seu Nome] em [seu-email@exemplo.com].
+Para perguntas ou sugestões, entre em contato com [Jairo Pinheiro] em [jairopnhr@gmail.com].
 
