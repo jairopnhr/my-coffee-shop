@@ -60,7 +60,8 @@ public class CoffeeModel {
     private String origin;
     
     private double rating;
-
+    @Enumerated(EnumType.STRING)
+    @Column(name="category")
     private Category category;
 
     private Integer calories;
