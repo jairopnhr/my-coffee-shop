@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 import java.util.Set;
 
 import com.example.my_coffee_shop_back_end.coffee.CoffeeModel;
-import com.example.my_coffee_shop_back_end.usuario.User;
+import com.example.my_coffee_shop_back_end.user.User;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;

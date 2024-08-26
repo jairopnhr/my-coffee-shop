@@ -1,15 +1,15 @@
 spring:
-    application:
-        name: my-coffee-shop-back-end
-    datasource:
-        url: jdbc:mysql://localhost:3306/cafeteria
-        password: root
-        username: root
-    jpa:
-        generate-ddl: true
-        show-sql: true
-        hibernate:
-            ddl-auto: update
-
-jwt:
-  secret-pass: 41b69f2d009a593710223c15d165d5772fd1bc1141f1bbc5d517b35d585e214f
+  application:
+    name: my-coffee-shop-back-end
+  datasource:
+    url: jdbc:mysql://localhost:3306/cafeteria
+    password: root
+    username: root
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  jwt:
+    secret:
+      pass: 41b69f2d009a593710223c15d165d5772fd1bc1141f1bbc5d517b35d585e214f
