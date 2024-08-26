@@ -10,7 +10,8 @@ public class CoffeeService {
     
     private final CoffeeRepository repository;
     
-    public void saveCoffee(CoffeeModel coffeeModel) {
+
+    public void saveCoffee(CoffeeModel coffeeModel ) {
         validateCoffee(coffeeModel);
         repository.save(coffeeModel);
     }
@@ -23,6 +24,9 @@ public class CoffeeService {
         if (repository.existsByName(coffeeModel.getName())) {
             throw new CoffeeExistsException("Coffee already exists with the name: " + coffeeModel.getName());
         }
+    
+    
+    
     }
 
 
